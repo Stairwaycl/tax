@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "F29 - Cómo declarar mensualmente"
+date:   2025-11-03 03:53:45 -0300
+---
+Al declarar mensualmente es necesario durante el mes usar e RCV
+
+Entrar a Mi Sii, luego ir a Servicios online, factura electrónica, y ahí en Registro de Compras y Ventas.
+
+Se encontrará un boton de consula y uno puede seleccionar el mes y darle al botón. eso cargará los datos de COMPRA Y VENTA del mes, más unos botones para agregar documentos DTE.
+
+La idea es que durante el mes a medida que uno compra y vende, agregue estos documentos, ya que hará la declaración mensual F29 automática y fácil de gestionar.

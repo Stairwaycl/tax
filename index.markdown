@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
+title: "Tributación, contabilidad y legislación para empresas de primera categoría"
 ---
 
 <ul>
@@ -17,9 +18,9 @@ layout: default
 
     {% if post_date <= current_date %}
 
-      <li>
+      <lu>
         <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
+      </lu>
 
     {% endif %}
 

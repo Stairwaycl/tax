@@ -13,15 +13,22 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>{{ page.title }} | {{ site.title }}</title>
+<title>
+  {% if page.title %}
+    {{ page.title | strip_html | strip }} |
+  {% endif %}
+  {{ site.title | strip_html | strip }}
+  </title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
 <link rel="stylesheet" href="/assets/css/styles.css">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap" rel="stylesheet">
 
-<link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
+
 {% if jekyll.environment == "production" %}
   <script src="my-analytics-script.js"></script>
 {% endif %}
@@ -36,13 +43,49 @@
 
 
 </head>
-<body class="highlight-area{% if page.url == '/blog.html' or page.layout == 'post' %} blog-background-gris{% endif %}">
+<body class="pt-5 pb-5">
+  <nav class="fixed-top shadow">
+    {% include navigation.html %}
 
-  <div class="container">
+  </nav>
+
+  <h1 class="pt-5">{{page.title}}</h1>
+  <div class="container p-4 shadow-lg">
     {{ content }}
   </div>
 
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
+  <script>
+    const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
+    const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl));
+  </script>
+
+  <script>
+    // Variables para seguimiento
+    var prevScrollpos = window.pageYOffset;
+    var navbar = document.querySelector('.fixed-top');
+    var navHeight = navbar.offsetHeight; // Obtener la altura actual de la barra de navegación
+
+    window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+
+        // --- Lógica de Detección ---
+
+        // 1. Desplazándose hacia ABAJO (Ocultar)
+        if (prevScrollpos < currentScrollPos && currentScrollPos > navHeight) {
+            // Se está moviendo hacia abajo Y no estamos cerca de la parte superior (evita que se esconda al inicio)
+            navbar.style.top = '-' + navHeight + 'px'; // Ocultar
+        }
+        // 2. Desplazándose hacia ARRIBA o está en la parte superior (Mostrar)
+        else {
+            navbar.style.top = '0'; // Mostrar
+        }
+
+        // Actualizar la posición previa para la siguiente iteración
+        prevScrollpos = currentScrollPos;
+    }
+  </script>
 </body>
 </html>

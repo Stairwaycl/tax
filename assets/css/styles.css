@@ -1,0 +1,49 @@
+body {
+  background-color: #ffe6ff;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 0.3em;
+}
+
+p {
+  text-align: justify;
+
+}
+
+.card-body {
+  background-color: #F5F3F5;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-footer {
+  background-color: #020e39;
+}
+
+.container-posts {
+  background-color: #F5F3F5
+}
+
+/*
+ * 1. CLASE BASE: Asegura que la transición sea suave.
+ * La transición debe aplicarse a la propiedad 'transform' o 'top' (usamos top en este caso).
+ */
+ .fixed-top {
+  transition: top 0.3s; /* Transición suave de 0.3 segundos */
+}
+
+/*
+* 2. CLASE DE OCULTACIÓN: Mueve la barra fuera del viewport.
+* Definimos 'top' para que esté justo arriba del borde superior.
+*/
+.nav-hidden {
+  top: -65px; /* Ajusta este valor. Debe ser mayor que la altura de tu barra de navegación. */
+}
+
+.bonheur-royale-regular {
+  font-family: "Bonheur Royale", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size:1.4em;
+}
