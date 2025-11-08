@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: "Tributación, contabilidad y legislación para empresas de primera categoría"
+title: "Posts"
 ---
 
 <ul class="list-unstyled"> {% for post in site.posts %}
