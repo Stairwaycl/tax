@@ -1,0 +1,3 @@
+La obligación de declarar el Impuesto al Valor Agregado (IVA), a través del Formulario 29 (F29) en Chile, depende principalmente de si tu actividad económica genera ventas o presta servicios que están afectos a este impuesto.
+
+¿Cómo Confirmar en el SII?Para saber cuál es la situación actual de tus declaraciones de IVA, puedes usar la herramienta oficial:Ingresa al sitio web del SII ($\text{www.sii.cl}$).Ve a la opción "Impuestos Mensuales".Selecciona "Consulta Integral F29".Autentícate con tu RUT y Clave Tributaria (o ClaveÚnica).En esa consulta, el sistema te mostrará la información asociada a tus declaraciones, si tienes inconsistencias pendientes, y cuántas declaraciones (F29) has presentado.

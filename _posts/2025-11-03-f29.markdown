@@ -4,9 +4,9 @@ title:  "F29 - Guía Completa: Cómo Declarar el IVA Mensual y Usar el RCV del S
 date:   2025-11-03 03:53:45 -0300
 ---
 
-El Formulario 29, o **F29**, es la declaración mensual obligatoria para la mayoría de las empresas y contribuyentes en Chile (ya que algunos no declaran IVA).
+El Formulario 29, o **F29**, es la declaración mensual obligatoria del [IVA]({% post_url 2025-11-07-iva %}) para la mayoría de las empresas y contribuyentes en Chile (ya que algunos no declaran IVA).
 
-Se utiliza para declarar el [Impuesto al Valor Agregado (IVA)]({% post_url 2025-11-07-iva %})_–tanto el Débito Fiscal (ventas) como el Crédito Fiscal (compras)–, como **Pagos Provisionales Mensuales (PPM**) y **Otros impuestos específicos.**
+Se utiliza para declarar el Impuesto al Valor Agregado (IVA), **Pagos Provisionales Mensuales (PPM**) y **Otros impuestos específicos.**
 
 Cumplir con esta obligación de forma correcta y oportuna es esencial para evitar multas, reajustes e intereses.
 
