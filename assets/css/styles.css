@@ -9,7 +9,7 @@ h1 {
 
 p {
   text-align: justify;
-
+  font-size: 1.2em;
 }
 
 .card-body {
@@ -22,7 +22,7 @@ p {
 }
 
 .container-posts {
-  background-color: #F5F3F5
+  background-color: #F5F3F5;
 }
 
 /*
