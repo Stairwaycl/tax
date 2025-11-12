@@ -1,5 +1,5 @@
 body {
-  background-color: #ffe6ff;
+  background-color: #c8b9fd;
 }
 
 h1 {
@@ -13,7 +13,7 @@ p {
 }
 
 .card-body {
-  background-color: #F5F3F5;
+  background-color: #ecd8ec;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -22,7 +22,7 @@ p {
 }
 
 .container-posts {
-  background-color: #F5F3F5;
+  background-color:#ecd8ec;
 }
 
 /*
@@ -46,4 +46,10 @@ p {
   font-weight: 400;
   font-style: normal;
   font-size:1.4em;
+}
+
+.favicon-img {
+    width: 38px;  /* Define explícitamente el ancho */
+    height: 38px; /* Define explícitamente el alto */
+    margin-right: 8px; /* Opcional: añade un pequeño espacio a la derecha para separarlo del texto "Tax" */
 }
