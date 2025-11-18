@@ -1,9 +1,10 @@
 ---
 layout: post
 title: " 🎯 Clasificación del Crédito Fiscal en el RCV"
+last_modified_at: 2025-11-18
 ---
 
-Al revisar tus facturas de compra en el [RCV]({{% port_url 2025-11-03-f29 %}}), el [SII](https://homer.sii.cl/) te exige asignarles una de estas tres clasificaciones. Esta es la base para determinar tu derecho a utilizar el 19% de [IVA]({{% post_url 2025-11-07-iva%}}) pagado como **crédito**:
+Al revisar tus facturas de compra en el RCV, el [SII](https://homer.sii.cl/) te exige asignarles una de estas tres clasificaciones. **Esta es la base** para determinar tu derecho a utilizar el [IVA]({% post_url 2025-11-16-calculo-iva %}) pagado como **crédito**:
 
 ## 1.- **Crédito de Uso Común (Uso Total)**
 
@@ -61,5 +62,6 @@ Cuando terminas de clasificar todas las facturas en el RCV, el sistema te muestr
 
 Esta suma total es la que el SII propone para el Crédito Fiscal en el Formulario 29. Una clasificación errónea puede llevar a usar un Crédito Fiscal superior al que tienes derecho, resultando en una multa del SII.
 
+----
 
-_ESPERAMOS ESTE POST SEA DE SU AYUDA_
+_SI LE FUE DE AYUDA, NO OLVIDE COMPARTIR NUESTRO BLOG. NOS SERÍA DE MUCHA AYUDA._

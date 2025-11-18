@@ -2,9 +2,10 @@
 layout: post
 title:  "F29 - Guía Completa: Cómo Declarar el IVA Mensual y Usar el RCV del SII"
 date:   2025-11-03 03:53:45 -0300
+last_modified_at: 2025-11-18
 ---
 
-El Formulario 29, o **F29**, es la declaración mensual obligatoria del [IVA] para la mayoría de las empresas y contribuyentes en Chile (ya que algunos no declaran IVA).
+El Formulario 29, o **F29**, es la declaración mensual obligatoria del [IVA]({% post_url 2025-11-16-calculo-iva %}) para la mayoría de las empresas y contribuyentes en Chile, [ya que algunos no declaran IVA](https://www.sii.cl/ayudas/ayudas_por_servicios/1956-codigos-1959.html).
 
 Se utiliza para declarar el Impuesto al Valor Agregado (IVA), **Pagos Provisionales Mensuales (PPM**) y **Otros impuestos específicos.**
 
@@ -13,8 +14,9 @@ Cumplir con esta obligación de forma correcta y oportuna es esencial para evita
 ---
 
 ## 🔑 El Corazón de la Declaración: El Registro de Compras y Ventas (RCV)
+{% capture url_destiny %}{% post_url 2025-11-16-calculo-iva %}#4--registro-de-compras-y-ventas-rcv-y-declaración{% endcapture %}
 
-El Servicio de Impuestos Internos (SII) de Chile ha simplificado enormemente el proceso del F29 gracias a la digitalización de los Documentos Tributarios Electrónicos (DTE) y la implementación del **Registro de Compras y Ventas (RCV)**.
+El Servicio de Impuestos Internos (SII) de Chile ha simplificado enormemente el proceso del F29 gracias a la digitalización de los Documentos Tributarios Electrónicos (DTE) y la implementación del  [Registro de Compras y Ventas (RCV)]({{ url_destiny }})
 
 ### ¿Qué es el RCV?
 
@@ -31,7 +33,7 @@ Tu propuesta de F29 se alimenta directamente de la información de tu RCV. Para 
 3.  **Revisar y Complementar:** Aquí es donde tu trabajo es crucial. El SII genera una propuesta con la información electrónica, pero debes:
     * **Comprobar la Información de Venta:** Asegurarte de que todas tus boletas y facturas emitidas estén correctamente registradas.
     * **Complementar Compras Manuales (si aplica):** Si recibiste documentos tributarios en papel o DTEs que no aparecieron automáticamente, debes agregarlos a tu Registro de Compras a través de los botones disponibles (como "Agregar Documentos").
-    * **Clasificar el Crédito Fiscal:** **¡Punto crítico!** En tu Registro de Compras, debes clasificar cada documento: si el IVA es de **uso común**, **uso no relacionado al giro**, o si corresponde a **activo fijo**. Una correcta clasificación asegura que utilices tu Crédito Fiscal de IVA de manera legal.
+    * **Clasificar el Crédito Fiscal:** **¡Punto crítico!** En tu Registro de Compras, debes clasificar cada documento: si el IVA es de **uso común**, **uso no relacionado al giro**, o si corresponde a **activo fijo**. [Una correcta clasificación]({% post_url 2025-11-12-credito-debito %}) asegura que utilices tu Crédito Fiscal de IVA de manera **legal**.
 
 ---
 

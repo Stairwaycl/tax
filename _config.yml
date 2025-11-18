@@ -32,6 +32,7 @@ theme: null
 plugins:
   - jekyll-feed
 
+author: Admin
 
 future: true
 # Exclude from processing.
